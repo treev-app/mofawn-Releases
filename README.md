@@ -16,7 +16,7 @@
 
 ## 操作方法
 
-[操作ガイド](https://mofawn-treev.vastsloth7.chatgpt.site/guide/) / [紹介サイト](https://mofawn-treev.vastsloth7.chatgpt.site/)
+[操作ガイド](https://apps.treev.work/mofawn/guide/) / [紹介サイト](https://apps.treev.work/mofawn/)
 
 1. 設定の「AI接続」で利用するAIを準備します。
 2. 整えたい文章をコピーして ⌘U、または受信文をコピーして ⌘K を押します。
@@ -37,7 +37,7 @@
 ZIPと同じリリースの`.sha256`を同じフォルダへ保存し、ファイル名を合わせて実行します。
 
 ```sh
-shasum -a 256 -c MoFawn-0.1.0-poc.20261029-macos-arm64-poc.zip.sha256
+shasum -a 256 -c MoFawn-0.1.1-macos-arm64-poc.zip.sha256
 ```
 
 チェックサム一致は配布物の同一性を確認するもので、Appleの署名・公証の代わりにはなりません。

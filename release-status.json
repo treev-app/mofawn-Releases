@@ -1,18 +1,19 @@
 {
   "product": "MoFawn",
   "creator": "Treev",
-  "appVersion": "0.1.0",
-  "draftTag": "v0.1.0-poc.20261029",
+  "appVersion": "0.1.1",
+  "draftTag": "v0.1.1-poc",
   "status": "draft-technical-preview",
-  "builtOn": "2026-10-29",
+  "builtOn": "2026-10-31",
   "platform": "macOS",
   "architecture": "arm64",
-  "artifact": "MoFawn-0.1.0-poc.20261029-macos-arm64-poc.zip",
-  "sha256": "a5c3acb123c342f035b8251735917d2bbba0dbedcdd171c8c29813b487e579f5",
-  "bytes": 10776010,
+  "artifact": "MoFawn-0.1.1-macos-arm64-poc.zip",
+  "sha256": "ac5828e9c9ec742d664b5521c4bf847131529a785d60c707a0645c512162f840",
+  "bytes": 10774735,
   "developerIdSigned": false,
   "notarized": false,
   "windowsAvailable": false,
-  "guideUrl": "https://mofawn-treev.vastsloth7.chatgpt.site/guide/",
-  "websiteRepository": "https://github.com/treev-app/mofawn-Web"
+  "guideUrl": "https://apps.treev.work/mofawn/guide/",
+  "websiteRepository": "https://github.com/treev-app/mofawn-Web",
+  "sourceCommit": "a02344cdb39cbcbde92f283f9f176c031680d54d"
 }
