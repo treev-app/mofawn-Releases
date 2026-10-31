@@ -6,11 +6,12 @@
 
 [リリースと配布状況](https://github.com/treev-app/mofawn-Releases/releases)
 
-現在は技術検証版です。このリポジトリは非公開で、閲覧には許可されたGitHubアカウントが必要です。一般公開用のDeveloper ID署名・公証済みインストーラーはまだ提供していません。検証用のビルドはDraft Releaseで管理します。
+現在は技術検証版です。このリポジトリは非公開で、閲覧には許可されたGitHubアカウントが必要です。macOS無料ベータのDeveloper ID署名・公証済みZIPをDraftに準備しています。リポジトリ公開とRelease公開はまだ実施していません。
 
 このリポジトリは配布専用です。アプリ本体のソースコードは含めません。
 
-- `MoFawn-*-macos-arm64-poc.zip` — Apple Silicon Mac用の開発ビルド（一般配布不可）
+- `MoFawn-*-macos-arm64-beta.zip` — Apple Silicon Mac用の署名・公証済み無料ベータ（公開準備中）
+- 旧poc / verification名のZIPは検証用で一般配布しません。
 - 同名の`.sha256` — SHA-256チェックサム
 - `release-status.json` — 現在の配布状態
 
@@ -37,7 +38,7 @@
 ZIPと同じリリースの`.sha256`を同じフォルダへ保存し、ファイル名を合わせて実行します。
 
 ```sh
-shasum -a 256 -c MoFawn-0.1.1-macos-arm64-poc.zip.sha256
+shasum -a 256 -c MoFawn-0.1.2-macos-arm64-beta.zip.sha256
 ```
 
 チェックサム一致は配布物の同一性を確認するもので、Appleの署名・公証の代わりにはなりません。
