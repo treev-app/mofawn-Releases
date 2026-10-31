@@ -8,9 +8,9 @@
 
 Apple Silicon Mac向けの無料ベータを公開しています。Developer ID署名・Apple公証済みです。
 
-[Mac無料ベータをダウンロード](https://github.com/treev-app/mofawn-Releases/releases/download/v0.1.2-beta.1/MoFawn-0.1.2-macos-arm64-beta.zip)
+[Mac無料ベータをダウンロード](https://github.com/treev-app/mofawn-Releases/releases/download/v0.1.3-beta.1/MoFawn-0.1.3-macos-arm64-beta.zip)
 
-ZIPを展開して「MoFawn PoC.app」をアプリケーションフォルダへ移動してください。無料・利用期限なし。自動更新は未対応です。
+ZIPを展開して「MoFawn.app」をアプリケーションフォルダへ移動してください。無料・利用期限なし。自動更新は未対応です。
 
 このリポジトリは配布専用です。アプリ本体のソースコードは含めません。
 
@@ -42,7 +42,7 @@ ZIPを展開して「MoFawn PoC.app」をアプリケーションフォルダへ
 ZIPと同じリリースの`.sha256`を同じフォルダへ保存し、ファイル名を合わせて実行します。
 
 ```sh
-shasum -a 256 -c MoFawn-0.1.2-macos-arm64-beta.zip.sha256
+shasum -a 256 -c MoFawn-0.1.3-macos-arm64-beta.zip.sha256
 ```
 
 チェックサム一致は配布物の同一性を確認するもので、Appleの署名・公証の代わりにはなりません。
