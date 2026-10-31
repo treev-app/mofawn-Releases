@@ -2,8 +2,7 @@
   "product": "MoFawn",
   "creator": "Treev",
   "appVersion": "0.1.2",
-  "draftTag": "v0.1.2-beta.1",
-  "status": "draft-notarized-macos-beta",
+  "status": "public-macos-free-beta",
   "builtOn": "2026-10-31",
   "platform": "macOS",
   "architecture": "arm64",
@@ -15,5 +14,8 @@
   "windowsAvailable": false,
   "guideUrl": "https://apps.treev.work/mofawn/guide/",
   "websiteRepository": "https://github.com/treev-app/mofawn-Web",
-  "sourceCommit": "def33b9"
+  "sourceCommit": "def33b9",
+  "releaseTag": "v0.1.2-beta.1",
+  "downloadUrl": "https://github.com/treev-app/mofawn-Releases/releases/download/v0.1.2-beta.1/MoFawn-0.1.2-macos-arm64-beta.zip",
+  "publishedOn": "2026-10-31"
 }

@@ -6,11 +6,15 @@
 
 [リリースと配布状況](https://github.com/treev-app/mofawn-Releases/releases)
 
-現在は技術検証版です。このリポジトリは非公開で、閲覧には許可されたGitHubアカウントが必要です。macOS無料ベータのDeveloper ID署名・公証済みZIPをDraftに準備しています。リポジトリ公開とRelease公開はまだ実施していません。
+Apple Silicon Mac向けの無料ベータを公開しています。Developer ID署名・Apple公証済みです。
+
+[Mac無料ベータをダウンロード](https://github.com/treev-app/mofawn-Releases/releases/download/v0.1.2-beta.1/MoFawn-0.1.2-macos-arm64-beta.zip)
+
+ZIPを展開して「MoFawn PoC.app」をアプリケーションフォルダへ移動してください。無料・利用期限なし。自動更新は未対応です。
 
 このリポジトリは配布専用です。アプリ本体のソースコードは含めません。
 
-- `MoFawn-*-macos-arm64-beta.zip` — Apple Silicon Mac用の署名・公証済み無料ベータ（公開準備中）
+- `MoFawn-*-macos-arm64-beta.zip` — Apple Silicon Mac用の署名・公証済み無料ベータ
 - 旧poc / verification名のZIPは検証用で一般配布しません。
 - 同名の`.sha256` — SHA-256チェックサム
 - `release-status.json` — 現在の配布状態

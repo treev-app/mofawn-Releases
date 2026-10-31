@@ -1,6 +1,6 @@
 # MoFawn 0.1.2 — macOS無料ベータ
 
-Treev制作。Apple Silicon Mac向け。Developer ID署名・Apple公証済み。公開前のDraftです。
+Treev制作。Apple Silicon Mac向け。Developer ID署名・Apple公証済み。無料ベータとして公開しています。
 
 - 整形7種類・返信5種類の文体ごとにショートカットを設定できます。
 - ⌘U：設定中の文体で整形、⌘I：丁寧（仕事用）で整形、⌘K：設定中の文体で返信。
